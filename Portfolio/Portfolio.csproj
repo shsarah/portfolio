@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="WebCvTemplate.rar %28Unzipped Files%29\wwwroot %28copy%29\" />
+    <None Remove="WebCvTemplate.rar %28Unzipped Files%29\wwwroot %28copy%29\css %28copy%29\" />
+    <None Remove="WebCvTemplate.rar %28Unzipped Files%29\wwwroot %28copy%29\fonts\" />
+    <None Remove="WebCvTemplate.rar %28Unzipped Files%29\wwwroot %28copy%29\images\" />
+    <None Remove="WebCvTemplate.rar %28Unzipped Files%29\wwwroot %28copy%29\img\" />
+    <None Remove="WebCvTemplate.rar %28Unzipped Files%29\wwwroot %28copy%29\js\" />
+    <None Remove="WebCvTemplate.UI\Areas\" />
+    <None Remove="WebCvTemplate.UI\Views\" />
+    <None Remove="WebCvTemplate.UI\Views\Home\" />
+    <None Remove="WebCvTemplate.UI\Views\Blog\" />
+    <None Remove="WebCvTemplate.UI\Views\Resume\" />
+    <None Remove="WebCvTemplate.UI\Controllers\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WebCvTemplate.UI\wwwroot\" />
+    <Folder Include="WebCvTemplate.UI\wwwroot\css %28copy%29\" />
+    <Folder Include="WebCvTemplate.UI\wwwroot\fonts\" />
+    <Folder Include="WebCvTemplate.UI\wwwroot\images\" />
+    <Folder Include="WebCvTemplate.UI\wwwroot\img\" />
+    <Folder Include="WebCvTemplate.UI\wwwroot\js\" />
+    <Folder Include="WebCvTemplate.UI\Areas\" />
+    <Folder Include="WebCvTemplate.UI\Views\" />
+    <Folder Include="WebCvTemplate.UI\Views\Home\" />
+    <Folder Include="WebCvTemplate.UI\Views\Blog\" />
+    <Folder Include="WebCvTemplate.UI\Views\Resume\" />
+    <Folder Include="WebCvTemplate.UI\Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.26" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.26">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
